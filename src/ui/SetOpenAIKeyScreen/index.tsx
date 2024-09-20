@@ -46,6 +46,7 @@ export const SetOpenAIKeyScreen = ({ onSetKey }: Props) => {
             value={key}
             variant="border"
             style={{ width: '320px' }}
+            password={true}
           />
         </div>
         <Button type="submit" disabled={url?.length === 0 || key?.length === 0}>
@@ -60,10 +61,6 @@ export const SetOpenAIKeyScreen = ({ onSetKey }: Props) => {
             the key something malicious👍
           </p>
         </div>
-        <p class={styles.alert}>
-          Disclaimer: This plugin may not produce satisfying result without
-          GPT-4 model
-        </p>
       </div>
     </div>
   );

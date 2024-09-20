@@ -63,7 +63,7 @@ export const CompareEditor: React.FC<Props> = ({
         <VerticalSpace space="medium" />
         <Container space="medium">
           <div>
-            <h3 class={styles.heading}>html</h3>
+            <h3 class={styles.heading}>HTML</h3>
             <VerticalSpace space="small" />
             <div class={styles.editorContainer}>
               <Editor
@@ -79,7 +79,7 @@ export const CompareEditor: React.FC<Props> = ({
           </div>
           <VerticalSpace space="medium" />
           <div>
-            <h3 class={styles.heading}>css</h3>
+            <h3 class={styles.heading}>CSS</h3>
             <VerticalSpace space="small" />
             <div class={styles.editorContainer}>
               <Editor
@@ -96,7 +96,8 @@ export const CompareEditor: React.FC<Props> = ({
           <VerticalSpace space="medium" />
           <Button class={styles.button} fullWidth onClick={generatePrompt}>
             Generate Prompt
-          </Button>
+        </Button>
+        <VerticalSpace space="medium" />
           <div>
             <h3 class={styles.heading}>Prompt</h3>
             <VerticalSpace space="small" />

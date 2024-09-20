@@ -7,7 +7,7 @@ export const GenerationLoader = () => {
   return (
     <div class={styles.container}>
       <p class={styles.text}>
-        ChatGPT is generating code. It may take about 40 to 120 seconds
+        Waiting for response from GPT. It may take about 40 to 120 seconds
       </p>
       <VerticalSpace space="small" />
       <div class={styles.loading}>
